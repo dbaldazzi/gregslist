@@ -6,7 +6,7 @@ const _model = new Schema({
     model: { type: String, required: true },
     description: { type: String, required: true },
     imgUrl: { type: String, default: 'https:/placeholder.it200x200' },
-    price: { type: Number, }
+    price: { type: Number },
 }, { timestamps: true })
 
 
